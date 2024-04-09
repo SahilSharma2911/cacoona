@@ -2,7 +2,7 @@ import React from "react";
 
 const Section1 = () => {
   return (
-    <section className="px-[1.2rem] md:px-[4rem] py-[3.5rem] bg-gradient-to-t from-[#3FCEE3] via-[#F1D383] to-[#EC9C86] flex flex-col items-center justify-center ">
+    <section className="px-[1.2rem] md:px-[4rem] py-[4rem] bg-gradient-to-t from-[#3FCEE3] via-[#F1D383] to-[#EC9C86] flex flex-col items-center justify-center ">
       <h2 className="font-semibold text-[42px] md:text-[52px] xl:text-[64px] leading-[140%] md:leading-[120.7%] text-center">
         LAUNCHING SOON
       </h2>
@@ -40,7 +40,7 @@ const Section1 = () => {
           </span>
         </div>
       </div>
-      <form action="" className="flex flex-col md:flex-row gap-4 md:gap-0 items-center justify-center mt-8">
+      <form action="" className="flex flex-col md:flex-row gap-5 md:gap-0 items-center justify-center mt-10">
         <input
           type="email"
           name=""
