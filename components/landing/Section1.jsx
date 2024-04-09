@@ -6,7 +6,7 @@ const Section1 = () => {
       <h2 className="font-semibold text-[42px] md:text-[52px] xl:text-[64px] leading-[140%] md:leading-[120.7%] text-center">
         LAUNCHING SOON
       </h2>
-      <p className="mt-6 md:mt-10 text-[18px] md:text-[22px] leading-[110%] text-center text-[#515151]">
+      <p className="mt-6 md:mt-10 text-[18px] md:text-[22px] leading-[130%] text-center text-[#515151]">
         Stay tuned for the launch of our website. In the meantime, sign up to
         receive exclusive updates and special offers.
       </p>
@@ -46,7 +46,7 @@ const Section1 = () => {
           name=""
           id=""
           placeholder="Enter your email address"
-          className="px-3 py-3 rounded-lg md:rounded-none md:rounded-l-lg focus:outline-none text-[#7F7F7F] max-w-[25rem] h-[2.8rem] md:mr-[-1pxs]"
+          className="px-4 md:px-3 py-3 rounded-lg md:rounded-none md:rounded-l-lg focus:outline-none text-[#7F7F7F] max-w-[25rem] h-[2.8rem] md:mr-[-1pxs]"
         //   style={{ marginRight: "-1px" }} 
         />
         <button className="bg-[#4fa2ae] px-7 py-3 rounded-lg md:rounded-none md:rounded-r-lg text-white h-[2.8rem]">
