@@ -30,7 +30,7 @@ const Section2 = () => {
           alt="#"
           width={400}
           height={400}
-          className="inline md:hidden"
+          className="inline lg:hidden"
         />
 
         <div className="flex flex-col items-start justify-center">
@@ -52,7 +52,7 @@ const Section2 = () => {
           alt="#"
           width={400}
           height={400}
-          className="hidden md:inline"
+          className="hidden lg:inline"
         />
       </div>
       <div className="flex flex-col lg:flex-row gap-10 xl:gap-52 bg-gradient-to-r from-[#4FA2AE] to-[#30304C] p-10 mt-[3rem] rounded-tl-[4rem] md:rounded-tl-[5rem]">

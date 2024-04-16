@@ -40,14 +40,16 @@ const Section1 = () => {
           </span>
         </div>
       </div>
-      <form action="" className="flex flex-col md:flex-row gap-5 md:gap-0 items-center justify-center mt-10">
+      <form
+        action=""
+        className="flex flex-col md:flex-row gap-5 md:gap-0 items-center justify-center mt-10"
+      >
         <input
           type="email"
           name=""
           id=""
           placeholder="Enter your email address"
           className="px-4 md:px-3 py-3 rounded-lg md:rounded-none md:rounded-l-lg focus:outline-none text-[#7F7F7F] max-w-[25rem] h-[2.8rem] md:mr-[-1pxs]"
-        //   style={{ marginRight: "-1px" }} 
         />
         <button className="bg-[#4fa2ae] px-7 py-3 rounded-lg md:rounded-none md:rounded-r-lg text-white h-[2.8rem]">
           Get Notified
