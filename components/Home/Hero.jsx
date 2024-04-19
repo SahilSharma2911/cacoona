@@ -11,32 +11,30 @@ const Hero = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    appendDots: dots => (
+    appendDots: (dots) => (
       <div
         style={{
           position: "absolute",
           bottom: "20px",
           textAlign: "center",
-          width: "100%"
+          width: "100%",
         }}
       >
         <ul style={{ margin: "0" }}> {dots} </ul>
       </div>
-    )
+    ),
   };
   return (
     <div className="relative">
       <Slider {...settings}>
-        <div className="bg-gray-300 h-[26rem]">
-          <h3>1</h3>
-        </div>
-        <div className="bg-gray-300 h-[26rem]">
-          <h3>2</h3>
-        </div>
-        <div className="bg-gray-300 h-[26rem]">
-          <h3>3</h3>
-        </div>
+        <div className="bg-gray-500 h-[26rem] w-[200px]">1</div>
+        <div className="bg-gray-300 h-[26rem] w-[200px]">2 </div>
+        <div className="bg-gray-300 h-[26rem] w-[200px]">3 </div>
       </Slider>
+      <div className="absolute top-[40%] ml-16 text-[48px] text-white font-semibold">
+        <h2>Up to 10% off Voucher</h2>
+        <p className="text-[16px]">Shop Now</p>
+      </div>
     </div>
   );
 };

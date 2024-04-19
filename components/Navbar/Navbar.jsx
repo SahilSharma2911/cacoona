@@ -37,7 +37,7 @@ const Navbar = () => {
           <b className="ml-2 md:ml-5">Shop Now</b>
         </p>
       </section>
-      <section className="px-[1.5rem] md:px-[2.5rem] xl:px-[7.5rem] py-4 flex flex-col justify-between bg-[#30304C] text-white">
+      <section className="px-[1.5rem] md:px-[2.5rem] xl:px-[7.5rem] py-5 flex flex-col justify-between bg-[#30304C] text-white">
         <div className="flex justify-between items-center">
           <Image
             src="/Images/logo.png"
@@ -85,7 +85,7 @@ const Navbar = () => {
               {dropdown3Open && (
                 <>
                   <div className="absolute top-full right-0 h-1.5 w-52"></div>
-                  <div className="absolute top-full right-0 bg-[#4FA2AE] text-white p-3 flex flex-col gap-2 text-[16px] w-[15rem] justify-center font-normal mt-1.5 shadow-md rounded-sm">
+                  <div className="absolute top-full right-0 bg-[#4FA2AE] text-white p-3 flex flex-col gap-2 text-[16px] w-[15rem] justify-center font-normal mt-1.5 shadow-md rounded-sm z-50">
                     <span>Item 1</span>
                     <span>Item 2</span>
                     <span>Item 3</span>
@@ -106,7 +106,7 @@ const Navbar = () => {
             <IoSearchOutline className="w-4 md:w-6 h-4 md:h-6 text-black absolute top-2 right-4 cursor-pointer" />
           </div>
         </div>
-        <div className="flex gap-16 mt-4 font-light justify-center items-center w-full">
+        <div className="hidden md:flex gap-5 lg:gap-10 xl:gap-16 mt-4 text-[14px] lg:text-[16px] font-light justify-center items-center w-full">
           <span
             className="flex items-center relative"
             onMouseEnter={toggleDropdown1}
@@ -118,7 +118,7 @@ const Navbar = () => {
             {dropdown1Open && (
               <>
                 <div className="absolute top-full left-0 h-1.5 w-52"></div>
-                <div className="absolute top-full left-0 bg-[#4FA2AE] text-white p-3 flex flex-col gap-2 text-[16px] w-[15rem] justify-center font-normal mt-1.5 shadow-md rounded-sm">
+                <div className="absolute top-full left-0 bg-[#4FA2AE] text-white p-3 flex flex-col gap-2 text-[14px] lg:text-[16px] w-[15rem] justify-center font-normal mt-1.5 shadow-md rounded-sm z-50">
                   <span>Celestial Necklaces</span>
                   <span>Astrology Bracelets</span>
                   <span>Elemental Earrings</span>
@@ -142,7 +142,7 @@ const Navbar = () => {
             {dropdown2Open && (
               <>
                 <div className="absolute top-full left-0 h-1.5 w-52"></div>
-                <div className="absolute top-full left-0 bg-[#4FA2AE] text-white p-3 flex flex-col gap-2 text-[16px] w-[15rem] justify-center font-normal mt-1.5 shadow-md rounded-sm">
+                <div className="absolute top-full left-0 bg-[#4FA2AE] text-white p-3 flex flex-col gap-2 text-[14px] lg:text-[16px] w-[15rem] justify-center font-normal mt-1.5 shadow-md rounded-sm z-50">
                   <span>Item 1</span>
                   <span>Item 2</span>
                   <span>Item 3</span>
