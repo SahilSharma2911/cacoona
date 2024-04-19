@@ -110,29 +110,41 @@ const Section1 = () => {
     <section className="px-[1.2rem] md:px-[2.5rem] py-14 bg-[#30304C]">
       <div className="flex items-center gap-4">
         <div className="bg-[#4FA2AE] h-9 w-5 rounded-sm"></div>
-        <h2 className="text-[#4FA2AE] text-[14px] md:text-[16px] font-semibold">Todays's</h2>
+        <h2 className="text-[#4FA2AE] text-[14px] md:text-[16px] font-semibold">
+          Todays's
+        </h2>
       </div>
       <div className="mt-4 text-white flex md:gap-20 items-start md:items-end justify-between">
         <div className="flex flex-col lg:flex-row lg:items-end gap-2 lg:gap-20">
-          <h3 className="font-semibold text-[30px] md:text-[36px]">Flash Sales</h3>
+          <h3 className="font-semibold text-[30px] md:text-[36px]">
+            Flash Sales
+          </h3>
           <div className="flex font-semibold text-[24px] md:text-[32px] gap-2.5 md:gap-4">
-            <div className="flex flex-col items-center ">
-              <span className="text-[10px] md:text-[12px] leading-[110%] md:leading-3">Days</span>
-              <span>02</span>
-            </div>
-            <span>:</span>
-            <div className="flex flex-col items-center ite">
-              <span className="text-[10px] md:text-[12px] leading-[110%] md:leading-3">Hours</span>
+            <div className="flex flex-col items-center">
+              <span className="text-[10px] md:text-[12px] leading-[110%] md:leading-3">
+                Days
+              </span>
               <span>02</span>
             </div>
             <span>:</span>
             <div className="flex flex-col items-center">
-              <span className="text-[10px] md:text-[12px] leading-[110%] md:leading-3">Minutes</span>
+              <span className="text-[10px] md:text-[12px] leading-[110%] md:leading-3">
+                Hours
+              </span>
               <span>02</span>
             </div>
             <span>:</span>
             <div className="flex flex-col items-center">
-              <span className="text-[10px] md:text-[12px] leading-[110%] md:leading-3">Seconds</span>
+              <span className="text-[10px] md:text-[12px] leading-[110%] md:leading-3">
+                Minutes
+              </span>
+              <span>02</span>
+            </div>
+            <span>:</span>
+            <div className="flex flex-col items-center">
+              <span className="text-[10px] md:text-[12px] leading-[110%] md:leading-3">
+                Seconds
+              </span>
               <span>02</span>
             </div>
           </div>
@@ -145,10 +157,11 @@ const Section1 = () => {
           </button>
           <button className="px-2 md:px-2" onClick={handleScrollRight}>
             {" "}
-            <BsFillArrowRightCircleFill className="h-6 md:h-8 w-6 md:w-8"/>
+            <BsFillArrowRightCircleFill className="h-6 md:h-8 w-6 md:w-8" />
           </button>
         </div>
       </div>
+
       <div
         className="mt-6 md:mt-10 flex overflow-x-scroll no-scrollbar gap-10"
         style={{ scrollbarWidth: "none" }}
