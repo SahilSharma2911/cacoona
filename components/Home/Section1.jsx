@@ -111,7 +111,7 @@ const Section1 = () => {
       <div className="flex items-center gap-4">
         <div className="bg-[#4FA2AE] h-9 w-5 rounded-sm"></div>
         <h2 className="text-[#4FA2AE] text-[14px] md:text-[16px] font-semibold">
-          Todays's
+          Todays&apos;s
         </h2>
       </div>
       <div className="mt-4 text-white flex md:gap-20 items-start md:items-end justify-between">
