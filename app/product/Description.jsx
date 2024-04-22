@@ -9,7 +9,7 @@ const Description = () => {
           Unveil the transformative power of journaling with Chesper, your
           trusted companion on the journey of self-discovery. Crafted with care
           and designed with intention, Chesper is more than just a journal –
-          it's your personal sanctuary for reflection, growth, and empowerment.
+          it&apos;s your personal sanctuary for reflection, growth, and empowerment.
         </p>
         <h3 className="my-5 font-bold">Features:</h3>
         <ol start={1} className="list-decimal ml-6 space-y-2">
@@ -29,7 +29,7 @@ const Description = () => {
           </li>
           <li>
             <b className="font-semibold">Prompts for Self-Reflection: </b>
-            Navigate your inner landscape with ease using Chesper's
+            Navigate your inner landscape with ease using Chesper&apos;s
             thought-provoking prompts and exercises. From gratitude practices to
             goal-setting activities, each page invites you to delve deeper into
             your psyche and uncover profound insights.
@@ -43,7 +43,7 @@ const Description = () => {
           </li>
           <li>
             <b className="font-semibold">Crafted with Care: Mindset: </b>
-            Cultivate a mindset of positivity and resilience with Chesper's
+            Cultivate a mindset of positivity and resilience with Chesper&apos;s
             uplifting affirmations and motivational prompts. Let your journal
             serve as a beacon of hope and inspiration, guiding you towards a
             brighter, more empowered future.
