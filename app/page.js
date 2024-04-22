@@ -7,6 +7,7 @@ import Section2 from "@/components/Home/Section2";
 import Section3 from "@/components/Home/Section3";
 import Section4 from "@/components/Home/Section4";
 import Section5 from "@/components/Home/Section5";
+import Section6 from "@/components/Home/Section6";
 import Navbar from "@/components/Navbar/Navbar";
 // import Hero from "@/components/landing/Hero";
 // import Section1 from "@/components/landing/Section1";
@@ -27,6 +28,7 @@ export default function Home() {
       <Section3/>
       <Section4/>
       <Section5/>
+      <Section6/>
       <Footer2 />
     </main>
   );

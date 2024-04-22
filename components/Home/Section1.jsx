@@ -107,14 +107,14 @@ const Section1 = () => {
   };
 
   return (
-    <section className="px-[1.2rem] md:px-[2.5rem] py-14 bg-[#30304C]">
+    <section className="px-[1.2rem] md:px-[2.5rem] py-8 md:py-14 bg-[#30304C]">
       <div className="flex items-center gap-4">
         <div className="bg-[#4FA2AE] h-9 w-5 rounded-sm"></div>
         <h2 className="text-[#4FA2AE] text-[14px] md:text-[16px] font-semibold">
           Todays&apos;s
         </h2>
       </div>
-      <div className="mt-4 text-white flex md:gap-20 items-start md:items-end justify-between">
+      <div className="mt-4 text-white flex gap-6 md:gap-20 items-start md:items-end justify-between">
         <div className="flex flex-col lg:flex-row lg:items-end gap-2 lg:gap-20">
           <h3 className="font-semibold text-[30px] md:text-[36px]">
             Flash Sales

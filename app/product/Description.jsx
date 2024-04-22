@@ -2,9 +2,9 @@ import React from "react";
 
 const Description = () => {
   return (
-    <section className="bg-[#30304C] py-11 px-[1.2rem] md:px-[2.5rem] text-white">
-      <h2 className="text-[39px] font-bold">Description</h2>
-      <div className="leading-[120%] mt-11">
+    <section className="bg-[#30304C] py-6 md:py-11 px-[1.2rem] md:px-[2.5rem] text-white">
+      <h2 className="text-[33px] md:text-[39px] font-bold">Description</h2>
+      <div className="leading-[140%] mt-4 md:mt-9">
         <p>
           Unveil the transformative power of journaling with Chesper, your
           trusted companion on the journey of self-discovery. Crafted with care
