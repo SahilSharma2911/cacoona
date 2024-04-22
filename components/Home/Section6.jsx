@@ -215,7 +215,7 @@ const Section6 = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-end mt-8 md:mt-14">
+      <div className="flex justify-end mt-8 md:mt-16">
         <Image
           src="/Images/up-arrow.png"
           alt="#"
