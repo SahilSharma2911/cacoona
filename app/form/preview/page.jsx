@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import Footer2 from "@/components/Footer/Footer2";
 import Preview from "./Preview";
 import { GoDotFill } from "react-icons/go";
+import html2pdf from "html2pdf.js";
+
 
 const data = {
   name: "John Deo",
@@ -25,6 +27,20 @@ const Page = () => {
     setSelectedImage(imageUrl);
   };
 
+  const handlePrint = () => {
+    const element = document.getElementById("pdf-content");
+    const opt = {
+      margin:       0,
+      filename:     'myfile.pdf',
+      image:        { type: 'jpeg', quality: 0.98 },
+      html2canvas:  { scale: 1 },
+      jsPDF:        { unit: 'in', format: 'letter', orientation: 'landscape' }
+    };
+
+    html2pdf().from(element).set(opt).save();
+  };
+
+
   return (
     <main>
       <section className="px-[1.2rem] md:px-[4rem] py-16 items-center bg-[#30304C] text-white flex justify-center relative">
@@ -32,8 +48,11 @@ const Page = () => {
           <h1 className="text-[26px] md:text-[32px] font-medium mb-8 md:mb-[2.5rem] text-center leading-[120%] md:leading-0">
             Preview
           </h1>
+          <div id="pdf-content">
+
           <Preview backgroundImage={backgroundImageUrl} data={data} />
-          <div className="mt-10 md:mt-12 flex flex-row gap-4 md:gap-10">
+          </div>
+          <div   className="mt-10 md:mt-12 flex flex-row gap-4 md:gap-10">
             <div className="flex items-center flex-col">
               <img
                 src="/Images/pdf1.png"
@@ -92,7 +111,7 @@ const Page = () => {
               </div>
             </div>
           </div>
-          <button className="bg-[#4FA2AE] text-[14px] md:text-[16px] w-[10rem] p-2 md:p-3 rounded-xl mt-10 md:mt-12">
+          <button onClick={handlePrint} className="bg-[#4FA2AE] text-[14px] md:text-[16px] w-[10rem] p-2 md:p-3 rounded-xl mt-10 md:mt-12">
             Pay Now
           </button>
         </div>
