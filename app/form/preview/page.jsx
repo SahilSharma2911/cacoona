@@ -32,7 +32,7 @@ const Page = () => {
           <h1 className="text-[26px] md:text-[32px] font-medium mb-8 md:mb-[2.5rem] text-center leading-[120%] md:leading-0">
             Preview
           </h1>
-          <Preview backgroundImage={backgroundImageUrl} data={data} />;
+          <Preview backgroundImage={backgroundImageUrl} data={data} />
           <div className="mt-10 md:mt-12 flex flex-row gap-4 md:gap-10">
             <div className="flex items-center flex-col">
               <img

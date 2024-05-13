@@ -12,7 +12,7 @@ const page = () => {
           <Image src="/Images/login.png" alt="#" width={620} height={500} />
         </div>
         <div className="w-full flex justify-center flex-col items-center relative">
-          <h1 className="text-[32px] font-medium mb-8 md:mb-[3.8rem] text-center leading-[120%] md:leading-0">
+          <h1 className="text-[26px] md:text-[32px] font-medium mb-8 md:mb-[3.8rem] text-center leading-[120%] md:leading-0">
             TELL US ABOUT YOURSELF
           </h1>
           <form action="" className="w-full text-[14px]">
