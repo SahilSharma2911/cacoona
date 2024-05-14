@@ -34,7 +34,7 @@ const Page = () => {
       filename: "myfile.pdf",
       image: { type: "jpeg", quality: 0.89 },
       html2canvas: { scale: 1 },
-      jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
+      jsPDF: { unit: "in", format: "letter", orientation: "landscape" },
     };
 
     html2pdf().from(element).set(opt).save();
